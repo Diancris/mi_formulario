@@ -1,0 +1,158 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(Archivos/fondopizza.jpg);
+    background-size: contain;   
+    display: grid;
+    grid-template-rows: 10% 80% 10%;
+    margin: 0%;
+}
+
+
+nav {
+    width: 100vw;
+    background-color:  #0b3d247e;
+    grid-row: 1/2;
+    
+}
+#logo{
+    width: 100vw;
+    height: 60vh;
+    float: left;
+    left: 50%;
+
+
+}
+
+
+footer {
+    width: 100vw;
+    background-color:  #1a040483;
+    grid-row: 3/4;
+
+    
+
+}
+ /* Carmen  */
+
+body{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h1{
+    text-transform: uppercase;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    color: rgb(6, 116, 79);
+}
+/* Borde de caja formulario  */
+form {
+    text-align: left;
+    border: solid 1px rgb(10, 10, 10);
+    border-radius: 5px;
+    width: 28em;
+    height: 20em;
+    margin-top: 20em;
+    margin:auto;
+    padding-left: 1em;
+    background-color: rgba(7, 248, 248, 0.267);
+    align-content: center;
+   
+    
+  
+}
+ /* Relleno de los botones de campos formulario  */
+label {
+    border: solid 1px rgb(30, 219, 141);
+    background-color: rgb(6, 116, 79);
+    padding: 6px;
+    border-radius: 10px;
+    color: aliceblue;
+   
+}
+ /* Relleno de los bordes de campos formulario  */
+input {
+	margin-right:20px;
+    margin-top: 1em;
+    margin-bottom: 2em;;
+    border: solid 1px rgb(7, 172, 81);
+    padding: 7px;
+    border-radius: 15px;
+    width: 20em;
+    background-color: rgb(219, 235, 229);
+}
+
+#agregar {
+    background-color:  rgb(6, 116, 79);
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(250, 247, 247);
+    border: solid 3px rgb(9, 57, 57);
+    border-radius: 5px;
+    padding: 8px;
+    width: 10vw;
+}
+
+#agregar1 {
+    background-color: rgb(6, 116, 79);
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(252, 251, 251);
+    border: solid 3px rgb(9, 57, 57);
+    border-radius: 5px;
+    padding: 8px;
+    width: 14vw;
+}
+#agregar2 {
+    background-color:  rgb(6, 116, 79);
+    font-size: medium;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(247, 244, 244);
+    border: solid 3px rgb(9, 57, 57);
+    border-radius: 5px;
+    padding: 8px;
+    width: 14vw;
+}
+ /* el borde de la  los campos  */
+table {
+	width:900px;
+    margin: auto;
+    border: 5px solid rgba(5, 80, 80, 0.781);
+    background-color: rgba(7, 248, 248, 0.521);
+}
+
+th {
+	text-align:center;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: rgba(5, 80, 80, 0.808);    /*darkslategrey; */
+    color: rgb(252, 249, 249);
+    border: solid 3px rgb(12, 31, 31);
+    border-radius: 10px;    
+    width: auto;
+}
+#result{
+    color: white;
+}
+#tablaDatos{
+    color:white;
+}
+
+#eliminar {
+    padding: 1px;
+    width: 80px;
+    background-color: rgba(5, 80, 80, 0.459);
+    color:white;
+
+}
+
+/* aqui comienza el responsive
+@media (min-width: 360px) and (max-width: 640px) {
+
+} */
+
