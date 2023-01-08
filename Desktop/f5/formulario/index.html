@@ -5,15 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet"  href="css/mobile.css">
     <title>Formulario</title>
 
 </head>
-<body>
+ <body>
 
-    <nav>
-        <div id="logo" > <img src="Archivos/Frame_logo.png"alt="Logo DTS" width="5%"></div>
+    <nav id="navegador">
+        <ul class="leftSide">
+            <li><img id="logoNavegador" src="Archivos/Frame_logo.png" alt="Logo navegador"></li>
+            <li id="botonNavegador1"> <a href="#">Enjoy-learn</a></li>
+        </ul>
+
+        <!-- <div id="logoNavgador" > <img src="Archivos/Frame_logo.png"alt="Logo" width="5%"></div>
+        <li id="botonNavegador1"> <a href="#">Enjoy-learn</a></li>
          
-        </div>
+        </div> -->
     </nav>
 
     <div class="main"> 
@@ -44,9 +51,9 @@
 
     <p id="result"></p>
     
-        <section>
-        <div>
-            <table id="tablaDatos">
+       <section>
+          <div>
+             <table id="tablaDatos">
                 <tr>
                     <th>Nombre</th>
                     <th>Apellidos</th>
@@ -56,29 +63,25 @@
                     <!--esta es la columna donde irá el botón eliminar-->
                 </tr>
                 <!-- los elementos nuevos van aquí-->
-            </table>
+             </table>
          </div>
-        </section>
+       </section>
 
     </div>
 
     <footer>
-        <div id="redes-footer"></div>>
+        <div class="redes-footer">
             
-        <a title="facebook" href="" target="_blank"><img src="Archivos/facebook.png" alt="facebook"width="2%"></a>
-        <a title="instagram" href="" target="_blank"><img src="Archivos/instagram.png" lt="instagram"width="2%"></a>
-        <a title="linkedin" href="" target="_blank"><img src="Archivos/linkedin.png" alt="linkedin"width="2%"></a>
-        <a title="twitter" href="" target="_blank"><img src="Archivos/gorjeo.png" alt="twitter"width="2%"></a>
+        <a id="Icon" title="facebook" href="" target="_blank"><img src="Archivos/facebook.png" alt="facebook" width="2%"></a> &nbsp;&nbsp;
+        <a id="Icon" title="instagram" href="" target="_blank"><img src="Archivos/instagram.png" lt="instagram" width="2%"></a>&nbsp;&nbsp;
+        <a id="Icon" title="linkedin" href="" target="_blank"><img src="Archivos/linkedin.png" alt="linkedin" width="2%"></a>&nbsp;&nbsp;
+        <a id="Icon" title="twitter" href="" target="_blank"><img src="Archivos/gorjeo.png" alt="twitter" width="2%"></a>&nbsp;&nbsp;
 
-        
-    </div>
-
-    
-
+        </div>  
     </footer>
     
 
     <script src="./index.js" type="text/javascript"></script>
     <script src="./prueba.js" type="text/javascript"></script>
-</body>
+ </body>
 </html>
