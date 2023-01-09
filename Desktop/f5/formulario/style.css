@@ -9,13 +9,19 @@ body {
     font-size: 16px;
 }
 
-
+/* navegador */
 nav {
-    width: 100vw;
-    background-color:  #0b3d247e;
+    width: 100%;
+    background-color:  #b8088c;
     grid-row: 1/2;
     
+    
 }
+nav ul{
+    list-style: none; 
+}
+
+/* navegador */
 #logo{
     width: 100vw;
     height: 60vh;
@@ -23,33 +29,53 @@ nav {
     left: 50%;
 
 }
+
+  /* navegador */
 #logoNavegador {
-    width: 70px;
+    width: 60px;
+    
   }
-  
+
+  /* navegador */
 .leftSide {
     float: left;
     left: 50%;
     
   }
 
+   /* navegador */
+nav ul li{
+    float: left;
+    font-size: 20px;
+}
 
+ /* navegador */
+nav ul li a {
+    color:white ;
+    text-decoration: none;
+    font-size: 30px;
+}
 
+ /* navegador  footer*/
 footer {
     width: 100%;
-    background-color:  #14ca5a3f;
+    background-color:  #16c8f5;
     grid-row: 3/4;
     display: flex;
     justify-content: space-around;
     padding-top: .9375rem;
      
 }
+
+ /* navegador  footer*/
 #redes-footer img{
     width: 100vw;
-    height: 60vh;
+    height: 30vh;
     float: left;
     left: 10%;
  }
+
+ /* navegador  footer*/
  #icon{
     max-width: 2%;
     float: left;
@@ -57,10 +83,7 @@ footer {
     height: 1em;
   }
  
-
-      
-
-
+ 
 /**adaptación formato escritorio**/  /* Car  390 pixeles en anchura (width) 844 pixeles en altura (height */
 @media (min-width: 700px){
     /**formato del header**/
@@ -72,7 +95,7 @@ body{
     
 }
 
-h1{
+h2{
     text-transform: uppercase;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 400;
@@ -204,7 +227,7 @@ th {
     
     
     nav {
-        width: 100vw;
+        width: 100%;
         background-color:  #0b3d247e;
         grid-row: 1/2;
         
@@ -220,7 +243,7 @@ th {
     
     
     footer {
-        width: 100vw;
+        width: 100%;
         background-color:  #1a040483;
         grid-row: 3/4;
     
@@ -352,8 +375,7 @@ th {
   width: 1em; 
   }
 
-     
-      
+           
       
  }
 

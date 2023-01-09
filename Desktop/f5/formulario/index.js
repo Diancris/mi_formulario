@@ -12,6 +12,7 @@ function agregar(){
 		p("inputNombre").focus();
 		return; // no devuelve nada si el nombre está vacío
 	} 
+    
     if (apellidos==""){
 		p("inputApellidos").focus();
 		return; // no devuelve nada si los apellidos está vacío
@@ -25,7 +26,7 @@ function agregar(){
 		return; // no devuelve nada si el color está vacío
 	}
 
-    // document.getElementById("result").innerText+="Hola, soy "+nombre+" "+apellidos+". Mi equipo favorito es el "+equipo+" y mi color favorito es el "+color+". ";
+    // document.getElementById("result").innerText+="Hola, soy "+nombre+" "+apellidos+". edad+" y clase "+clase+". ";
 
     //creamos un objeto tr que anexaremos a nuestra tabla llamada tableProductos
     let fila=document.createElement("tr");
@@ -55,7 +56,11 @@ function agregar(){
     //Por último asignamos nuestro TR a la tabla con id tablaProductos
     p("tablaDatos").appendChild(fila)
  // hasta aquí la parte de añadir
-    //limpiamos nuestros inputs para agregar mas datos, y ponemos el foco nuevamente en el input de codigo
+
+
+    //Paralimpiar  inputs para poder agregar mas datos, y ponemos el foco nuevamente en el 
+    // input de codigo
+
     p("inputNombre").value=""
     p("inputApellidos").value="";
     p("inputEdad").value="";
@@ -66,9 +71,7 @@ function agregar(){
 
 function eliminar(nodoBoton){
  
-    /*recibimos el botón como parámetro, obtendremos el tr que lo contiene de la siguiente manera:
-    Como nuestro botón es hijo de un td y este td de el tr debemos invocar dos veces parentNode
-    para llegar a tener el TR y eliminar la línea completa*/
+    /*recibimos el botón como parámetro, obtendremos el tr */
     let filaABorrar= nodoBoton.parentNode.parentNode;
  
     //ahora que ya tenemos el padre TR, podemos eliminarlo de la siguiente manera junto a todos sus hijos
